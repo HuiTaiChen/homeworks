@@ -34,10 +34,14 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-    </div>
+   <hr />
+        <footer>
+            <p>&copy; 2017 - <a href="#">SkillTree</a></p>
+        </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
 </body>
 </html>

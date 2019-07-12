@@ -5,10 +5,15 @@ using System.Web;
 
 namespace homeworks.Models.ViewModels
 {
-    public class AccountViewModel
-    {
-        public string Type { get; set; }
-        public DateTime CostDate { get; set; }
-        public int Cost { get; set; }
-    }
+	
+	public class AccountViewModel
+	{
+		public int No { get; set; }
+		public string Type { get; set ; }
+		public string CostDate{	get ; set ; }
+		public string Cost { get; set; }
+		public string Note { get; set; }
+		
+	}
+	
 }
